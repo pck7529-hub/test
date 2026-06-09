@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
+st.title('나의등산유형은?' )
+
 st.set_page_config(
     page_title="산행 MBTI | 등산 유형 추천",
     page_icon="⛰️",
